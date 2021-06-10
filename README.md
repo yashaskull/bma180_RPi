@@ -7,7 +7,7 @@ https://www.amazon.com/gp/product/B06XHNWBX4/ref=ppx_yo_dt_b_asin_title_o00_s00?
 
 I developed this code with help from:  
 https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/
-https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout
+https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout  
 https://github.com/derekmolloy/beaglebone
 
 WiringPi:  
