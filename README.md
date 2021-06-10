@@ -35,4 +35,4 @@ Currently, the code can:
 7.  Enable/disable sample skipping
 
 NOTE:
-The code is not complete and it is 
+I plan to use this sensor for a seismic data acquisition system. The code is not complete and is in no way perfect. So feel free to use or not use it, make it better etc. I am just happy I am able to contribute to the opensource community :)
