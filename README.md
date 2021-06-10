@@ -34,5 +34,5 @@ Currently, the code can:
 6.  Enable/disable new data interrupts
 7.  Enable/disable sample skipping
 
-NOTE:
-I plan to use this sensor for a seismic data acquisition system. The code is not complete and is in no way perfect. So feel free to use or not use it, make it better etc. I am just happy I am able to contribute to the opensource community :)
+NOTE:  
+I plan to use this sensor for a seismic data acquisition system. The code is not complete and is in no way perfect. I will push updates every so often. So feel free to use or not use it, make it better etc. I am just happy I am able to contribute to the opensource community :)
