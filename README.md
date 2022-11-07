@@ -1,31 +1,35 @@
-# bma180_rpi
+# BMA180_rpi
+A C program for interfacing the BMA180 Triple Axis Digital Accelerometer with a Raspberry Pi (RPi). 
+This code was tested on the RPi 4 using the wiringPi library and the I2C interface for communication.
 
-A simple C program for interfacing bma180 triple axis digital acceleromter with a RPi 4 using the wiringPi library. I used the I2C interface for communication.
+This code was developed with assistance from:
+[https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/](https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/)  [https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout](https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout)  
+[https://github.com/derekmolloy/beaglebone](https://github.com/derekmolloy/beaglebone)
 
-This is the breakout board I used:   
-https://www.amazon.com/gp/product/B06XHNWBX4/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+## BMA180 IC and Breakout Board
+The following is the BMA180 IC with breakout board used.
+[https://www.amazon.com/gp/product/B06XHNWBX4/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1]
 
-I developed this code with help from:  
-https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/
-https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout  
-https://github.com/derekmolloy/beaglebone
+## wiringPi
+[http://wiringpi.com/](http://wiringpi.com/)
 
-WiringPi:  
-http://wiringpi.com/
+## BMA180 Datasheet
+[https://www.geeetech.com/Documents/BST-BMA180-DS000.pdf](https://www.geeetech.com/Documents/BST-BMA180-DS000.pdf)
 
-BMA180 Datasheet:  
-https://www.geeetech.com/Documents/BST-BMA180-DS000.pdf
-
-PIN Configuration:  
-Device<----->RPi  
-3V3<-------->3V3  
-SCL<-------->GPIO3(SCL)  
-SDA<-------->GPIO2(SDA)  
-GND<-------->Ground  
-CSB<-------->3V3  
-INT<-------->GPIO17
-
-Currently, the code can:  
+## PIN Configuration
+The following table shows the pin configuration for connecting the BMA180 to the RPi.
+```
+| BMA180 |     RPi     |  Description |
+|--------|-------------|--------------|
+| 3V3    | 3V3         | 3.3V supply  |    
+| SCL    | GPIO3 (SCL) | Serial Clock |   
+| SDA    | GPIO2 (SDA) | Serial Data  |
+| GND    | GND         | Ground  	  |
+| CSB    | 3V3         |   -          |
+| INT    | GPIO17      |   -          |
+```
+## Operation
+Currently, the code can:
 1.  Reset device
 2.  Enable/disable write
 3.  Get and set device bandwidth
@@ -35,4 +39,4 @@ Currently, the code can:
 7.  Enable/disable sample skipping
 
 NOTE:  
-I plan to use this sensor for a seismic data acquisition system. The code is not complete and is in no way perfect. I will push updates every so often. So feel free to use or not use it, make it better etc. I am just happy I am able to contribute to the opensource community :)
+I plan to use this sensor for a seismic data acquisition system. The code is not completed.
