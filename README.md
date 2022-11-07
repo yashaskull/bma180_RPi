@@ -25,7 +25,7 @@ The following table shows the pin configuration for connecting the BMA180 to the
 | 3V3    | 3V3         | 3.3V supply  |    
 | SCL    | GPIO3 (SCL) | Serial Clock |   
 | SDA    | GPIO2 (SDA) | Serial Data  |
-| GND    | GND         | Ground  	  |
+| GND    | GND         | Ground  	    |
 | CSB    | 3V3         |   -          |
 | INT    | GPIO17      |   -          |
 ```
