@@ -3,6 +3,7 @@ A C program for interfacing the BMA180 Triple Axis Digital Accelerometer with a 
 This code was tested on the RPi 4 using the wiringPi library and the I2C interface for communication.
 
 This code was developed with assistance from:
+
 [https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/](https://www.electrodragon.com/bma180-three-axis-accelerometer-demo-test-with-arduino/)  [https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout](https://www.geeetech.com/wiki/index.php/BMA180_Triple_Axis_Accelerometer_Breakout)  
 [https://github.com/derekmolloy/beaglebone](https://github.com/derekmolloy/beaglebone)
 
