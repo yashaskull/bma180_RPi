@@ -1,4 +1,4 @@
-# BMA180_rpi
+# BMA180_RPi
 A C program for interfacing the BMA180 Triple Axis Digital Accelerometer with a Raspberry Pi (RPi). 
 This code was tested on the RPi 4 using the wiringPi library and the I2C interface for communication.
 
